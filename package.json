@@ -1,0 +1,16 @@
+{
+  "name": "imersao-back-end",
+  "version": "1.0.0",
+  "description": "Código para a imersão back-end feita pela alura",
+  "main": "index.js",
+  "scripts": {
+     "dev" : "node --watch --env-file=.env src/server.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Lemos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  }
+}
