@@ -4,13 +4,16 @@
   "description": "Código para a imersão back-end feita pela alura",
   "main": "index.js",
   "scripts": {
-     "dev" : "node --watch --env-file=.env src/server.js",
-     "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch --env-file=.env src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "José Lemos",
   "license": "MIT",
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
     "express": "^4.21.1",
-    "mongodb": "^6.10.0"
+    "mongodb": "^6.10.0",
+    "multer": "^1.4.5-lts.1"
   }
 }
